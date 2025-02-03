@@ -1,0 +1,73 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+    <meta charset="UTF-8">
+  <link rel="stylesheet"href="styles.css"/>
+</head>
+<body>
+  <div class="survey">
+  <h1 id="title">Roses valley survey form</h1>
+  <p id="description">Thank you for your time.Please fill out this form with the required information</p>
+  <form id="survey-form" method="post" action="https://register-dem.freecodecamp.org">
+  <fieldset>
+<label for="name">name: <input id="name" type="text" required placeholder="fullname"/></label>
+<label for="email">email: <input id="email" type="email" required placeholder="email"//></label>
+<label for="number">number: <input id="number" type="number" min="1" max="300" required placeholder="number"//></label>
+<label id="name-label">name</label>
+<label id="email-label">email</label>
+<label id="number-label">number</label>
+</fieldset>
+<fieldset>
+  <label for ="dropdown">Pick your status</label>
+  <select id="dropdown" name="status">
+    <option value="1">married</option>
+    <option value="2">unmarried</option>
+    </select>
+</fieldset>
+<fieldset>
+  <legend>Favorite animal</legend>
+  <label><input type="radio" name="pets" value="cat"/>Cat</label>
+  <label><input type="radio" name="pets" value="dog"/>Dog</label>
+</fieldset>
+<fieldset>
+  <legend>favorite sports</legend>
+  <label for="basketball"><input value="basketball" id="basketball" type="checkbox"/>basketball</label>
+  <label for="volleyball"><input value="volleyball" id="volleyball" type="checkbox"/>volleyball</label>
+  <label for="hockey"><input value="hockey" id="hockey" type="checkbox"/>hockey</label>
+  <label for="football"><input value="football" id="football" type="checkbox"/>football</label>
+</fieldset>
+<label for="comment">Any comments or suggestions: <textarea id="comment" name="comment" rows="3" cols="30"></textarea></label>
+<input id="submit" type="submit" name="submit" value="Submit"/>
+  </form>
+  </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body { 
+  background-color:#1b1b32;
+  font-family: sans-serif;
+  padding: 20px;
+}
+label {
+  display:block;
+  margin: 0.5rem 0;
+}
+.survey {
+  width: 70%;
+  background-color: #1b3b32;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  color:#ffffff;
+}
+
+** end of undefined **
+
